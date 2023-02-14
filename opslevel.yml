@@ -1,0 +1,14 @@
+version: 1
+service:
+  name: Analytical Engineer Challenge
+  lifecycle: generally_available
+  owner: daedalus
+  language: SQL
+  description: This repository houses the Pleo Analytical Engineer challenge.
+  tags:
+    - key: type
+      value: hiring-challenge
+  repositories:
+    - name: pleo-io/analytical-engineer-challenge
+      provider: github
+      display_name: analytical-engineer-challenge @ terraform
