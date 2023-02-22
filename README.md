@@ -2,7 +2,7 @@
 🚀 The Pleo Analytical Engineer Challenge
 
 
-## Stewards: @team-poseidon
+## Stewards: @analytics-empowerment
 https://linear.app/pleo/project/stewards-analytical-engineer-challenge-192436dac756
 
 ## Welcome!

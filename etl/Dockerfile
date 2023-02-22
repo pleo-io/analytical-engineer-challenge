@@ -12,19 +12,6 @@ RUN apt update \
 # Install dbt
 # RUN pip install dbt
 
-# Install Go
-#RUN cd /tmp \
-#    && wget -q https://golang.org/dl/go1.17.1.linux-amd64.tar.gz \
-#    && rm -rf /usr/local/go \
-#    && tar -C /usr/local -xzf go1.17.1.linux-amd64.tar.gz && rm /tmp/go1.17.1.linux-amd64.tar.gz \
-
-# Install Kotlin
-# RUN cd /tmp \
-#     && wget -q https://github.com/JetBrains/kotlin/releases/download/v1.5.30/kotlin-compiler-1.5.30.zip \
-#     && cd /usr/local/bin \
-#     && unzip /tmp/kotlin-compiler-1.5.30.zip \
-#     && rm /tmp/kotlin-compiler-1.5.30.zip \
-#     && apt -y install openjdk-11-jre
 
 WORKDIR /app
 COPY ./src /app
