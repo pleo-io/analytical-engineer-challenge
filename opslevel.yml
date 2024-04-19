@@ -2,7 +2,7 @@ version: 1
 service:
   name: Analytical Engineer Challenge
   lifecycle: generally_available
-  owner: daedalus
+  owner: team-data-platform
   language: SQL
   description: This repository houses the Pleo Analytical Engineer challenge.
   tags:
