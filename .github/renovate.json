@@ -3,6 +3,8 @@
   "extends": [
     "local>pleo-io/renovate-config"
   ],
-  "schedule": ["every monday"],
+  "schedule": [
+    "on monday"
+  ],
   "automerge": false
 }
