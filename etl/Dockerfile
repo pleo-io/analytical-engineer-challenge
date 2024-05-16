@@ -1,4 +1,4 @@
-FROM python:3
+FROM python:3@sha256:3966b81808d864099f802080d897cef36c01550472ab3955fdd716d1c665acd6
 
 RUN apt update \
     && apt upgrade \

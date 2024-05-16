@@ -3,7 +3,7 @@ version: '3'
 services:
   dwh:
     container_name: dwh
-    image: postgres:16.2-alpine
+    image: postgres:16.2-alpine@sha256:951bfda460300925caa3949eaa092ba022e9aec191bbea9056a39e2382260b27
     volumes:
       - db_data:/var/lib/postgresql/data
     restart: always
