@@ -4,7 +4,7 @@
 steward: team-data-platform
 
 # (optional) Add your slack channel name in case it doesn't have the format "<<team-name>>-public" like for example "team-devx-public
-# slack_channel: dummy-channel
+slack_channel: group-data-platform-public
 
 # (optional) The description for this component will be picked up from the related GitHub repository. If you need to provide a different one, you can use this field
 # description: This is a description about your component
