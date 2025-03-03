@@ -1,6 +1,6 @@
-version: v34.10.1
+version: v40.1.2
 files:
   - .github/workflows/renovate_dependency_management.yaml
 
 values:
-  renovateCronjobSchedule: "30 7 * * 1" # This is UTC -> At 08:30 CET / 09:30 CEST on Monday.
+  renovateCronjobSchedule: "37 12 * * 1" # This is UTC -> At 13:37 CET / 14:37 CEST on Monday.
