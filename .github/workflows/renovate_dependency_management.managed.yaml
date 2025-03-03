@@ -3,6 +3,7 @@
 #   - centralized-templates
 # FILE STEWARD: @pleo-io/team-devx,@pleo-bot-auto-approver
 
+
 name: Renovate - Dependency management
 
 on:
@@ -15,13 +16,13 @@ on:
         type: string
 
   schedule:
-    - cron: 30 7 * * 1
+    - cron: "37 12 * * 1"
 
 concurrency: renovate
 
 jobs:
   call-workflow:
-    uses: pleo-io/renovate-config/.github/workflows/[custom]_reusable_run-renovate.yaml@main
+    uses: pleo-io/renovate-config/.github/workflows/run-renovate.reusable-external.yaml@main
     with:
       logLevel: ${{ inputs.logLevel || 'info' }}
     secrets: inherit
