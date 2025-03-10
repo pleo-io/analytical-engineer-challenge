@@ -2,7 +2,7 @@
 🚀 The Pleo Analytical Engineer Challenge
 
 
-## Stewards: @team-data-platform
+## Stewards: @group-data-platform
 
 ## Welcome!
 This repository houses the Pleo Analytical Engineer challenge. It contains a mix of detective work, ops-like work, programming and big-picture perspective. Your answer to the challenge will help us get to know you, and provide a fun context for subsequent discussion in our interviews :)
