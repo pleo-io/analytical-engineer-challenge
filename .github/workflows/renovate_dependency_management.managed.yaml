@@ -16,7 +16,7 @@ on:
         type: string
 
   schedule:
-    - cron: "37 12 * * 1"
+    - cron: "24 12 * * 1-5"
 
 concurrency: renovate
 
